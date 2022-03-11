@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #F5F5F5;;
+}
+
+.app{
+  width: 560px;
+  height: 580px;  
+}
+
+.border_around {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 560px;
+  height: 580px;
+  border-left: 20px solid #0B2434;
+  border-right: 20px solid #0B2434;
+  border-top: 30px solid #0B2434;
+  border-bottom: 30px solid #0B2434;
+}
+
+.title {
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  font-weight: 400;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.dices{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  margin-bottom: 40px;
+}
+
+.die_component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 3.96766px;
+  cursor: pointer;
+}
+
+.roll_dice{
+  width: 100px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 3.81277px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
